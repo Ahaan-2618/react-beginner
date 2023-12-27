@@ -9,6 +9,6 @@ const reactElement = {
   children: "Click me to visit Google",
 };
 
-const root = document.getElementById("id");
+const root = document.getElementById("#id");
 
 customRender(reactElement, root);
